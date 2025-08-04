@@ -42,20 +42,4 @@ Each model was trained individually on respective datasets.
 | Leukemia          | 95%      | 94%       | 96%    | 95%      |
 | Breast Cancer     | 91%      | 90%       | 92%    | 91%      |
 
----
 
-## 🚀 How to Run
-
-```bash
-# Clone the repo
-git clone https://github.com/tanishchavaan/Cancer-jordan-Project.git
-cd Cancer-jordan-Project
-
-# Install requirements
-pip install -r requirements.txt
-
-# Run training (example)
-python train_cervical.py
-python train_skin.py
-python train_leukemia.py
-python train_breast.py
